@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/https//princepatel7405.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/https//princepatel7405.github.io/static/js/main.7f8fb096.js",
+    "main.js": "/https//princepatel7405.github.io/static/js/main.5749395d.js",
     "static/js/787.128fc6e9.chunk.js": "/https//princepatel7405.github.io/static/js/787.128fc6e9.chunk.js",
     "static/media/logo.svg": "/https//princepatel7405.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/https//princepatel7405.github.io/index.html",
     "main.073c9b0a.css.map": "/https//princepatel7405.github.io/static/css/main.073c9b0a.css.map",
-    "main.7f8fb096.js.map": "/https//princepatel7405.github.io/static/js/main.7f8fb096.js.map",
+    "main.5749395d.js.map": "/https//princepatel7405.github.io/static/js/main.5749395d.js.map",
     "787.128fc6e9.chunk.js.map": "/https//princepatel7405.github.io/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.7f8fb096.js"
+    "static/js/main.5749395d.js"
   ]
 }
