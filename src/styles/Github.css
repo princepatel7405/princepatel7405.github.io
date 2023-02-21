@@ -1,0 +1,19 @@
+
+.github-main{
+margin-top: 5%;
+margin-bottom: 5%;
+display: flex;
+justify-content: center;
+}
+
+.Github-steaks{
+    margin-bottom: 5%;
+}
+
+.Github-steak-one ,.Github-steak-two,.Github-steak-three{
+    display: flex;
+    
+    justify-content: center;
+
+}
+

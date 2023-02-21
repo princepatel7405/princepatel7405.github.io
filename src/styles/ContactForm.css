@@ -1,0 +1,16 @@
+.contact-form{
+    display: flex;
+}
+.contact-form label{
+  display: inline-block;
+}
+
+
+@media  (min-width: 470px)  and (max-width: 860px){
+    .contact-form{
+        display: block;
+    
+    }
+
+
+}

@@ -1,0 +1,32 @@
+.logo{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 5px;
+    
+}
+.logo-div{
+   width: 50%;
+   justify-content: center;
+   height: 150px;
+   border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+.logo-div:hover{
+    box-shadow: rgba(179, 11, 11, 0.5) 0px 0px 0px 5px;
+    cursor: pointer;
+}
+.main-grid{
+    margin-left: 10%;
+}
+@media  (min-width: 470px)  and (max-width: 860px){
+    
+    .main-grid{
+        margin-left: 15%;
+    }
+}
+@media  (min-width: 270px)  and (max-width: 469px){
+    .main-grid{
+        margin-left: 30%;
+    }
+}

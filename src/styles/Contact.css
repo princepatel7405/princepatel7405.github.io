@@ -1,0 +1,15 @@
+.contact-details{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+@media  (min-width: 270px)  and (max-width: 860px){
+    .contact-details{
+        display: block;
+    }
+    .contact-details>div{
+        margin-top: 20px;
+    }
+}
