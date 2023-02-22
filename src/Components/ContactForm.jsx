@@ -1,7 +1,10 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
-import {Box, Button,  FormControl,  FormLabel,  Input, Textarea} from "@chakra-ui/react"
+import {Box,   FormControl,  FormLabel,  Input, Textarea} from "@chakra-ui/react"
+import CustomToastExample from './ToastButton';
 //import "../styles/ContactForm.css"
+
+
 const ContactForm = () => {
     const form = useRef();
 
@@ -18,7 +21,6 @@ const ContactForm = () => {
   return (
     <Box display={"flex"} justifyContent="center">
 
-
       <FormControl width={["xl","xs","xs","xs","sm","sm"]}>
     <form ref={form} onSubmit={sendEmail} className="contact-form" >
       <FormLabel  >Name</FormLabel>
@@ -31,9 +33,7 @@ const ContactForm = () => {
       <FormLabel >Message</FormLabel>
       <Textarea  name="message" width={["xs","xs","xs","xl","xl"]} />
       <br />
-      <Box >
-      <Button type="submit" variant={"outline"} mb="20px" mt="20px" borderColor="burlywood" >Send</Button>
-      </Box>
+      <CustomToastExample/>
     </form>
       </FormControl>
     </Box>
