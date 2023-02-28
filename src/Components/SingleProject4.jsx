@@ -1,50 +1,64 @@
-import lumen from '../images/lumen5.png'
 import {
     Button,
     ButtonGroup,
     Card,
     CardBody,
     CardFooter,
+    Flex,
     Heading,
     Image,
-    Link,
+    SimpleGrid,
     Stack,
     Text,
   } from "@chakra-ui/react";
   import React from "react";
+  import react from "../images/react-icon.png"
+  import html from "../images/html-icon.png"
+  import chakra from "../images/chakra-icon.png"
+  import redux from "../images/redux-icon.png"
+  import node from "../images/node-icon.png"
+  import ex from "../images/ex-icon.png"
+  import mongo from "../images/mongo-icon.png"
+import upstyle from "../images/upstyle.png"
   const SingleProject4 = () => {
     return (
       <Card maxW="md">
         <CardBody>
-          <Image src={lumen} alt="mailchimp" borderRadius="lg" />
+          <Image src={upstyle} alt="upstyle" borderRadius="lg" />
           <Stack mt="6" textAlign={"left"} spacing="3">
             <Heading size="md" textAlign={"center"}>
-              clone of lumen5
+              Upstyle
             </Heading>
             <Heading size={"sm"}>About Project :-</Heading>
             <Text>
-              The Brand which provides you online video making and editing plateform which is easy to use.
+            The E-commerce brand has fam for selling trending fashionable products and giving a good experience of online shopping.
             </Text>
             <Heading size={"sm"}>Tech Stacks :-</Heading>
-            <Text>HTML | CSS | JavaScript</Text>
+            {/* <Text>HTML | CSS | JavaScript</Text> */}
+            <SimpleGrid columns={[5,5,7,7,7]}>
+              <img src={html} alt="html"/>
+              <img src={react} alt="react"/>
+              <img src={chakra} alt="chakra" />
+              <img src={redux} alt="redux" />
+              <img src={node} alt="node" />
+              <img src={mongo} alt="mongo" />
+              <img src={ex} alt="express" />
+
+            </SimpleGrid>
             <Heading size={"sm"}>My Role :-</Heading>
             <Text>
-              This was Individual Project so, whole work was done by me{" "}
+            This was Group Project and I'm responsible for making the order status page, admin dashboard, sidebar, and navbar for the admin side.
             </Text>
           </Stack>
         </CardBody>
         <CardFooter>
           <ButtonGroup spacing="2">
-            <Link href="https://github.com/princepatel7405/plucky-throne-4544">
-              <Button variant="solid" bgColor={"burlywood"}>
+              <Button variant="solid" bgColor={"burlywood"} onClick={()=>window.open("https://github.com/kaushalragini/pushy-dime-8312")}>
                 Github
               </Button>
-            </Link>
-            <Link href="https://rad-douhua-cf3a2e.netlify.app/">
-              <Button variant="outline" borderColor={"burlywood"}>
+              <Button variant="outline" borderColor={"burlywood"} onClick={()=>window.open("https://upstylesss.netlify.app/")}>
                 Netlify
               </Button>
-            </Link>
           </ButtonGroup>
         </CardFooter>
       </Card>

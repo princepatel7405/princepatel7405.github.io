@@ -27,6 +27,10 @@
 }
 @media  (min-width: 270px)  and (max-width: 469px){
     .main-grid{
-        margin-left: 30%;
+        margin-left: 15%;
+    }
+    .logo-div{
+        height: 100px;
+        width: 100px;
     }
 }

@@ -15,8 +15,8 @@ import js from '../images/js.png'
 const Skills = () => {
   return (
     <div id="skills" style={{paddingTop:"70px",paddingBottom:"50px"}}>
-      <Heading size={["md","md","xl","xl","xl"]} mb={'50px'} color="burlywood"> SKILLS</Heading>
-      <SimpleGrid className="main-grid" justifyContent={"center"}    columns={[1,2,3,4,4]} spacing="40px">
+      <Heading size={["xl","xl","xl","xl","xl"]} mb={'50px'} color="burlywood"> SKILLS</Heading>
+      <SimpleGrid className="main-grid" justifyContent={"center"}    columns={[2,2,3,4,4]} spacing="40px">
         <Box className="logo-div">
           <img className="logo" src={html} alt="html" />
           <p>HTML</p>
@@ -58,8 +58,8 @@ const Skills = () => {
           <p>Java Script</p>
         </Box>
       </SimpleGrid>
-      <Heading size={["md","md","xl","xl","xl"]} mt="50px" mb={'50px'} color="burlywood"> TOOLS</Heading>
-      <SimpleGrid className="main-grid" justifyContent={"center"}    columns={[1,2,3,4,4]} spacing="40px">
+      <Heading size={["xl","xl","xl","xl","xl"]} mt="50px" mb={'50px'} color="burlywood"> TOOLS</Heading>
+      <SimpleGrid className="main-grid" justifyContent={"center"}    columns={[2,2,3,4,4]} spacing="40px">
         <Box className="logo-div">
           <img className="logo" src={json} alt="Json" />
           <p>Json-Server</p>

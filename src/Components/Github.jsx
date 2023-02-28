@@ -6,7 +6,7 @@ import "../styles/Github.css";
 const Github = () => {
   return (
     <div >
-      <Heading size={["md","md","xl","xl","xl"]} color={"burlywood"} mt="5%">
+      <Heading size={["xl","xl","xl","xl","xl"]} color={"burlywood"} mt="5%">
         Github
       </Heading>
       <Box className="github-main">

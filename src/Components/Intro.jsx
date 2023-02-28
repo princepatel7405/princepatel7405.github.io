@@ -12,10 +12,10 @@ const Intro = () => {
         <Box className='intro-contents'>
             <Heading>I'm Prince Mendpara</Heading>
             <Heading color={'brown'}>Full Stack Developer</Heading>
-            <Text textAlign={"center"}> MERN Developer from Bhavnagar,Gujarat 
+            <Text textAlign={"center"}> MERN Developer from Bhavnagar, Gujarat 
             </Text>
             <Text>
-              who want's to build carrier with dedicated people in 
+              who wants to build a carrier with dedicated people in 
             </Text>
                 <Text>
                 an organization that encourages creativity and innovation.
