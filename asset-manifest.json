@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.caf76415.css",
-    "main.js": "/static/js/main.502f987c.js",
+    "main.css": "/static/css/main.b12a46ab.css",
+    "main.js": "/static/js/main.0128cc8a.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/lumen5.png": "/static/media/lumen5.b76b1a682a79d068837a.png",
     "static/media/redux.png": "/static/media/redux.1b4bb5fceb01b19da59d.png",
     "static/media/netlify.png": "/static/media/netlify.603ef81c872f9df8c343.png",
     "static/media/website.gif": "/static/media/website.336e32c703da9202b071.gif",
     "static/media/chakra.png": "/static/media/chakra.ff0632e1b3f51c896a7d.png",
+    "static/media/upstyle.png": "/static/media/upstyle.79dab011eb12c7ff1636.png",
     "static/media/mailcare.png": "/static/media/mailcare.b6371c09a7e0a8807b80.png",
     "static/media/science.png": "/static/media/science.3bf6fb4b18b1f904676d.png",
     "static/media/node.jpg": "/static/media/node.ac96a6c9c0e11031fc4b.jpg",
@@ -18,12 +19,12 @@
     "static/media/js.png": "/static/media/js.266bd9fb2663dcc057b4.png",
     "static/media/mongodb.webp": "/static/media/mongodb.f79b501f8ab5a6118bf4.webp",
     "index.html": "/index.html",
-    "main.caf76415.css.map": "/static/css/main.caf76415.css.map",
-    "main.502f987c.js.map": "/static/js/main.502f987c.js.map",
+    "main.b12a46ab.css.map": "/static/css/main.b12a46ab.css.map",
+    "main.0128cc8a.js.map": "/static/js/main.0128cc8a.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.caf76415.css",
-    "static/js/main.502f987c.js"
+    "static/css/main.b12a46ab.css",
+    "static/js/main.0128cc8a.js"
   ]
 }
